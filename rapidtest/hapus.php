@@ -16,4 +16,5 @@ function adaPermintaanHapus(){
 
 function kirimKeHalamanUtama($pesan){
     header("Location: index.php?pesan=$pesan");
+    $pesan = "Data berhasil dihapus.";
 }
