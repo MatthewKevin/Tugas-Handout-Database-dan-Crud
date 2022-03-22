@@ -52,7 +52,7 @@ class Peserta {
         return $this->email;
     }
     public function getNama(){
-        return $this->email;
+        return $this->nama;
     }
     public function setEmail($email){
         $this->email = $email;
